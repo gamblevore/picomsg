@@ -38,7 +38,7 @@ There are not many functions, and you don't need all of them, but is what I have
         char* Data;
     };
 
-This is what you get back. Ignore the "`Remains`" field you don't need it. This gives you the `Length` of the data, and the `Data` itself. `Data` is allocated with `malloc` and you have to `free` it after.
+This is what you get back. Ignore the "`Remain`" field you don't need it. This gives you the `Length` of the data, and the `Data` itself. `Data` is allocated with `malloc` and you have to `free` it after.
 
 
 ### Utils
